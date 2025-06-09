@@ -7,7 +7,6 @@ A simple and clean Todo application built with React.
 - 📦 LocalStorage persistence
 - 🎨 Responsive modern UI
 - ☁️ Light gradient background
-- 🔎 Filter tasks by status (optional)
 - ⚡ Fast and lightweight
 
 ## 📦 Technologies Used
@@ -26,5 +25,5 @@ npm start
 
 ```bash
 
-git clone https://github.com/bilalmalik04/project-todo-app.git
+git clone https://github.com/bilalmalik04/todo-app.git
 cd project-todo-app
