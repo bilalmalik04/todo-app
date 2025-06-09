@@ -1,0 +1,301 @@
+:root{
+  --txt-color:#333;
+}
+
+.userName{
+  text-align: center;
+  margin-bottom: 35px;
+  color: var(--txt-color);
+}
+/* section :front-wrapper */
+.front-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+
+  /* 💎 Glassmorphism styles */
+   background: rgba(255, 255, 255, 0.05); /* transparent background */
+  border-radius: 5px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border: 2px solid black;
+padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* section  : logo */
+#logo{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+#logo h3{
+color: var(--txt-color);
+}
+#logo img{
+  height: 50px;
+}
+/* title */
+.title-heading{
+  text-align: center;
+  font-size: 2.4rem;
+  width: 70%;
+  color: var(--txt-color);
+}
+.title-heading span{
+  color: orangered;
+  font-style: italic;
+}
+/* section : details-todos */
+#details-todos{
+  display:flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#details-todos p{
+line-height: 1.5;
+text-align: center;
+color: var(--txt-color);
+font-size: 15px;
+}
+#details-todos h3{
+color: var(--txt-color);
+font-size: .8rem;
+}
+/* section :extra-details */
+#extra-details{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  position: absolute;
+  right: 20px;
+  bottom: 80px;
+}
+.exe{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: relative;
+}
+.exe::before{
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color:orangered;
+  position: absolute;
+  right: -55px;
+}
+.exe0{
+  height: 6px;
+  width: 6px;
+  border-radius:50% ;
+  border: none;
+  background-color: #ffffff;
+}
+.todos-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.todos-info span{
+  font-family: monospace;
+  color: var(--txt-color);
+}
+.todos-info span:nth-child(2){
+  position: relative;
+  left: 20px;
+  color: orangered;
+  font-weight: 800;
+}
+/* destinationBtn */
+#btnSec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#destinationBtn{
+  background-color: orangered;
+  color: #ffff;
+  width: 250px;
+  align-items: center;
+  padding: 14px ;
+  border-radius: 25px;
+  margin-top: 7rem;
+}
+
+/* main todo app styling */
+/* section :;details-todo */
+#details-todoApp{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+#name span{
+  color: orangered;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+/* theme change btns */
+.theme-btns{
+  display: flex;
+  align-items: center;
+}
+.theme-btns button{
+  font-size: 1.2rem;
+  color: orangered;
+}
+
+/* section : inputArea */
+#inputArea{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+#inputArea input{
+  width: 90%;
+  padding: 13px;
+ outline:none;
+  border-radius: 5px;
+  border-color: orangered;
+  font-style: italic;
+  font-size: 15px;
+}
+#inputArea button{
+  background-color: orangered;
+  color: var(--txt-color);
+  padding-block: 13px;
+}
+
+/* custom styles */
+
+.mywork {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+   /* 💎 Glassmorphism styles */
+  background: rgba(255, 255, 255, 0.05); /* transparent background */
+  border-radius: 5px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.15);
+padding: 1rem;
+}
+
+
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color:orangered;
+  text-shadow: 0 0 10px #00ffff33;
+}
+
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #2a2a3d;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+  max-width: 800px;
+}
+
+/* .input-area input:focus {
+  box-shadow: 0 0 8px #00ffff88;
+} */
+
+.input-area button {
+  background-color: orangered;
+  color: #fdfdfdfd;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  background: #2a2a3d;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  color:black;
+  max-width: 800px;
+}
+
+.todo-list li:hover {
+  background: #343450;
+}
+
+.todo-list li span {
+  flex: 1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: crimson;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo-list button:hover {
+  color: #ff4444;
+}
+
+.clear-btn {
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  background: orangered;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
