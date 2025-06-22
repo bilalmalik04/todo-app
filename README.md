@@ -2,20 +2,20 @@
 
 A simple and clean Todo application built with React.
 
-## 🚀 Features
+##  Features
 - ✅ Add, update, delete todos
 - 📦 LocalStorage persistence
 - 🎨 Responsive modern UI
 - ☁️ Light gradient background
 - ⚡ Fast and lightweight
 
-## 📦 Technologies Used
+##  Technologies Used
 - React
 - CSS
 - JavaScript
 - HTML
 
-## 🔧 Setup
+##  Setup
 
 ```bash
 npm install
