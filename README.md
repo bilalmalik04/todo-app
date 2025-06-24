@@ -25,5 +25,5 @@ npm start
 
 ```bash
 
-git clone https://github.com/bilalmalik04/todo-app.git
+git clone https://github.com/byllzz/todo-app.git
 cd project-todo-app
